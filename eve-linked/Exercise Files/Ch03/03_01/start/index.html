@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>React ⚛️</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function Header(props) {
+        console.log(props);
+        return (
+          <header>
+            <h1> {props.name} work now getting reflected</h1>
+          </header>
+        );
+      }
+
+      function Main(props) {
+        console.log('main props ', props);
+        return (
+          <section>
+            <img
+              height={200}
+              src="https://th.bing.com/th/id/R.403f8e5b1f4306efd17aee040a28d905?rik=UR%2b7GEEcNXpPdA&riu=http%3a%2f%2fwww.insplosion.com%2fblog%2fwp-content%2fuploads%2f2020%2f12%2fThe-Top-5-Most-Beautiful-Restaurants-in-Toronto-1.jpg&ehk=ccnea3EgjOq02rwlw0wrXpxTCmdkoq2WiJrBHiKQKw4%3d&risl=&pid=ImgRaw&r=0"
+            />
+            <h1>
+              {props.names.map((name, i) => (
+                <li key={i}>{name}</li>
+              ))}
+            </h1>
+          </section>
+        );
+      }
+
+      function App() {
+        return (
+          <div>
+            <Header id="1" name="Random dudes" />
+            <Main name="test" names={names} />
+          </div>
+        );
+      }
+      const names = ['krishna', 'ram', 'raj'];
+      ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+  </body>
+</html>
