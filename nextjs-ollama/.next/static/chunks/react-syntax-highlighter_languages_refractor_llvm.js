@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["react-syntax-highlighter_languages_refractor_llvm"],{
+
+/***/ "(app-pages-browser)/./node_modules/refractor/lang/llvm.js":
+/*!*********************************************!*\
+  !*** ./node_modules/refractor/lang/llvm.js ***!
+  \*********************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("\nmodule.exports = llvm;\nllvm.displayName = \"llvm\";\nllvm.aliases = [];\nfunction llvm(Prism) {\n    ;\n    (function(Prism) {\n        Prism.languages.llvm = {\n            comment: /;.*/,\n            string: {\n                pattern: /\"[^\"]*\"/,\n                greedy: true\n            },\n            boolean: /\\b(?:false|true)\\b/,\n            variable: /[%@!#](?:(?!\\d)(?:[-$.\\w]|\\\\[a-f\\d]{2})+|\\d+)/i,\n            label: /(?!\\d)(?:[-$.\\w]|\\\\[a-f\\d]{2})+:/i,\n            type: {\n                pattern: /\\b(?:double|float|fp128|half|i[1-9]\\d*|label|metadata|ppc_fp128|token|void|x86_fp80|x86_mmx)\\b/,\n                alias: \"class-name\"\n            },\n            keyword: /\\b[a-z_][a-z_0-9]*\\b/,\n            number: /[+-]?\\b\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b|\\b0x[\\dA-Fa-f]+\\b|\\b0xK[\\dA-Fa-f]{20}\\b|\\b0x[ML][\\dA-Fa-f]{32}\\b|\\b0xH[\\dA-Fa-f]{4}\\b/,\n            punctuation: /[{}[\\];(),.!*=<>]/\n        };\n    })(Prism);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9yZWZyYWN0b3IvbGFuZy9sbHZtLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBRUFBLE9BQU9DLE9BQU8sR0FBR0M7QUFDakJBLEtBQUtDLFdBQVcsR0FBRztBQUNuQkQsS0FBS0UsT0FBTyxHQUFHLEVBQUU7QUFDakIsU0FBU0YsS0FBS0csS0FBSzs7SUFDZixVQUFVQSxLQUFLO1FBQ2ZBLE1BQU1DLFNBQVMsQ0FBQ0osSUFBSSxHQUFHO1lBQ3JCSyxTQUFTO1lBQ1RDLFFBQVE7Z0JBQ05DLFNBQVM7Z0JBQ1RDLFFBQVE7WUFDVjtZQUNBQyxTQUFTO1lBQ1RDLFVBQVU7WUFDVkMsT0FBTztZQUNQQyxNQUFNO2dCQUNKTCxTQUNFO2dCQUNGTSxPQUFPO1lBQ1Q7WUFDQUMsU0FBUztZQUNUQyxRQUNFO1lBQ0ZDLGFBQWE7UUFDZjtJQUNGLEdBQUdiO0FBQ0wiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vbm9kZV9tb2R1bGVzL3JlZnJhY3Rvci9sYW5nL2xsdm0uanM/YWI0MiJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCdcblxubW9kdWxlLmV4cG9ydHMgPSBsbHZtXG5sbHZtLmRpc3BsYXlOYW1lID0gJ2xsdm0nXG5sbHZtLmFsaWFzZXMgPSBbXVxuZnVuY3Rpb24gbGx2bShQcmlzbSkge1xuICA7KGZ1bmN0aW9uIChQcmlzbSkge1xuICAgIFByaXNtLmxhbmd1YWdlcy5sbHZtID0ge1xuICAgICAgY29tbWVudDogLzsuKi8sXG4gICAgICBzdHJpbmc6IHtcbiAgICAgICAgcGF0dGVybjogL1wiW15cIl0qXCIvLFxuICAgICAgICBncmVlZHk6IHRydWVcbiAgICAgIH0sXG4gICAgICBib29sZWFuOiAvXFxiKD86ZmFsc2V8dHJ1ZSlcXGIvLFxuICAgICAgdmFyaWFibGU6IC9bJUAhI10oPzooPyFcXGQpKD86Wy0kLlxcd118XFxcXFthLWZcXGRdezJ9KSt8XFxkKykvaSxcbiAgICAgIGxhYmVsOiAvKD8hXFxkKSg/OlstJC5cXHddfFxcXFxbYS1mXFxkXXsyfSkrOi9pLFxuICAgICAgdHlwZToge1xuICAgICAgICBwYXR0ZXJuOlxuICAgICAgICAgIC9cXGIoPzpkb3VibGV8ZmxvYXR8ZnAxMjh8aGFsZnxpWzEtOV1cXGQqfGxhYmVsfG1ldGFkYXRhfHBwY19mcDEyOHx0b2tlbnx2b2lkfHg4Nl9mcDgwfHg4Nl9tbXgpXFxiLyxcbiAgICAgICAgYWxpYXM6ICdjbGFzcy1uYW1lJ1xuICAgICAgfSxcbiAgICAgIGtleXdvcmQ6IC9cXGJbYS16X11bYS16XzAtOV0qXFxiLyxcbiAgICAgIG51bWJlcjpcbiAgICAgICAgL1srLV0/XFxiXFxkKyg/OlxcLlxcZCspPyg/OltlRV1bKy1dP1xcZCspP1xcYnxcXGIweFtcXGRBLUZhLWZdK1xcYnxcXGIweEtbXFxkQS1GYS1mXXsyMH1cXGJ8XFxiMHhbTUxdW1xcZEEtRmEtZl17MzJ9XFxifFxcYjB4SFtcXGRBLUZhLWZdezR9XFxiLyxcbiAgICAgIHB1bmN0dWF0aW9uOiAvW3t9W1xcXTsoKSwuISo9PD5dL1xuICAgIH1cbiAgfSkoUHJpc20pXG59XG4iXSwibmFtZXMiOlsibW9kdWxlIiwiZXhwb3J0cyIsImxsdm0iLCJkaXNwbGF5TmFtZSIsImFsaWFzZXMiLCJQcmlzbSIsImxhbmd1YWdlcyIsImNvbW1lbnQiLCJzdHJpbmciLCJwYXR0ZXJuIiwiZ3JlZWR5IiwiYm9vbGVhbiIsInZhcmlhYmxlIiwibGFiZWwiLCJ0eXBlIiwiYWxpYXMiLCJrZXl3b3JkIiwibnVtYmVyIiwicHVuY3R1YXRpb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/refractor/lang/llvm.js\n"));
+
+/***/ })
+
+}]);
