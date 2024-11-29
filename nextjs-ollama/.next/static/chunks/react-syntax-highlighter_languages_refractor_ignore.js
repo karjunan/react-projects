@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["react-syntax-highlighter_languages_refractor_ignore"],{
+
+/***/ "(app-pages-browser)/./node_modules/refractor/lang/ignore.js":
+/*!***********************************************!*\
+  !*** ./node_modules/refractor/lang/ignore.js ***!
+  \***********************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("\nmodule.exports = ignore;\nignore.displayName = \"ignore\";\nignore.aliases = [\n    \"gitignore\",\n    \"hgignore\",\n    \"npmignore\"\n];\nfunction ignore(Prism) {\n    ;\n    (function(Prism) {\n        Prism.languages.ignore = {\n            // https://git-scm.com/docs/gitignore\n            comment: /^#.*/m,\n            entry: {\n                pattern: /\\S(?:.*(?:(?:\\\\ )|\\S))?/,\n                alias: \"string\",\n                inside: {\n                    operator: /^!|\\*\\*?|\\?/,\n                    regex: {\n                        pattern: /(^|[^\\\\])\\[[^\\[\\]]*\\]/,\n                        lookbehind: true\n                    },\n                    punctuation: /\\//\n                }\n            }\n        };\n        Prism.languages.gitignore = Prism.languages.ignore;\n        Prism.languages.hgignore = Prism.languages.ignore;\n        Prism.languages.npmignore = Prism.languages.ignore;\n    })(Prism);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9yZWZyYWN0b3IvbGFuZy9pZ25vcmUuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFFQUEsT0FBT0MsT0FBTyxHQUFHQztBQUNqQkEsT0FBT0MsV0FBVyxHQUFHO0FBQ3JCRCxPQUFPRSxPQUFPLEdBQUc7SUFBQztJQUFhO0lBQVk7Q0FBWTtBQUN2RCxTQUFTRixPQUFPRyxLQUFLOztJQUNqQixVQUFVQSxLQUFLO1FBQ2ZBLE1BQU1DLFNBQVMsQ0FBQ0osTUFBTSxHQUFHO1lBQ3ZCLHFDQUFxQztZQUNyQ0ssU0FBUztZQUNUQyxPQUFPO2dCQUNMQyxTQUFTO2dCQUNUQyxPQUFPO2dCQUNQQyxRQUFRO29CQUNOQyxVQUFVO29CQUNWQyxPQUFPO3dCQUNMSixTQUFTO3dCQUNUSyxZQUFZO29CQUNkO29CQUNBQyxhQUFhO2dCQUNmO1lBQ0Y7UUFDRjtRQUNBVixNQUFNQyxTQUFTLENBQUNVLFNBQVMsR0FBR1gsTUFBTUMsU0FBUyxDQUFDSixNQUFNO1FBQ2xERyxNQUFNQyxTQUFTLENBQUNXLFFBQVEsR0FBR1osTUFBTUMsU0FBUyxDQUFDSixNQUFNO1FBQ2pERyxNQUFNQyxTQUFTLENBQUNZLFNBQVMsR0FBR2IsTUFBTUMsU0FBUyxDQUFDSixNQUFNO0lBQ3BELEdBQUdHO0FBQ0wiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vbm9kZV9tb2R1bGVzL3JlZnJhY3Rvci9sYW5nL2lnbm9yZS5qcz8wNDhhIl0sInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0J1xuXG5tb2R1bGUuZXhwb3J0cyA9IGlnbm9yZVxuaWdub3JlLmRpc3BsYXlOYW1lID0gJ2lnbm9yZSdcbmlnbm9yZS5hbGlhc2VzID0gWydnaXRpZ25vcmUnLCAnaGdpZ25vcmUnLCAnbnBtaWdub3JlJ11cbmZ1bmN0aW9uIGlnbm9yZShQcmlzbSkge1xuICA7KGZ1bmN0aW9uIChQcmlzbSkge1xuICAgIFByaXNtLmxhbmd1YWdlcy5pZ25vcmUgPSB7XG4gICAgICAvLyBodHRwczovL2dpdC1zY20uY29tL2RvY3MvZ2l0aWdub3JlXG4gICAgICBjb21tZW50OiAvXiMuKi9tLFxuICAgICAgZW50cnk6IHtcbiAgICAgICAgcGF0dGVybjogL1xcUyg/Oi4qKD86KD86XFxcXCApfFxcUykpPy8sXG4gICAgICAgIGFsaWFzOiAnc3RyaW5nJyxcbiAgICAgICAgaW5zaWRlOiB7XG4gICAgICAgICAgb3BlcmF0b3I6IC9eIXxcXCpcXCo/fFxcPy8sXG4gICAgICAgICAgcmVnZXg6IHtcbiAgICAgICAgICAgIHBhdHRlcm46IC8oXnxbXlxcXFxdKVxcW1teXFxbXFxdXSpcXF0vLFxuICAgICAgICAgICAgbG9va2JlaGluZDogdHJ1ZVxuICAgICAgICAgIH0sXG4gICAgICAgICAgcHVuY3R1YXRpb246IC9cXC8vXG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gICAgUHJpc20ubGFuZ3VhZ2VzLmdpdGlnbm9yZSA9IFByaXNtLmxhbmd1YWdlcy5pZ25vcmVcbiAgICBQcmlzbS5sYW5ndWFnZXMuaGdpZ25vcmUgPSBQcmlzbS5sYW5ndWFnZXMuaWdub3JlXG4gICAgUHJpc20ubGFuZ3VhZ2VzLm5wbWlnbm9yZSA9IFByaXNtLmxhbmd1YWdlcy5pZ25vcmVcbiAgfSkoUHJpc20pXG59XG4iXSwibmFtZXMiOlsibW9kdWxlIiwiZXhwb3J0cyIsImlnbm9yZSIsImRpc3BsYXlOYW1lIiwiYWxpYXNlcyIsIlByaXNtIiwibGFuZ3VhZ2VzIiwiY29tbWVudCIsImVudHJ5IiwicGF0dGVybiIsImFsaWFzIiwiaW5zaWRlIiwib3BlcmF0b3IiLCJyZWdleCIsImxvb2tiZWhpbmQiLCJwdW5jdHVhdGlvbiIsImdpdGlnbm9yZSIsImhnaWdub3JlIiwibnBtaWdub3JlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/refractor/lang/ignore.js\n"));
+
+/***/ })
+
+}]);

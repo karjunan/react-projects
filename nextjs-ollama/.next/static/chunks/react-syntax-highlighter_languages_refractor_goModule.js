@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["react-syntax-highlighter_languages_refractor_goModule"],{
+
+/***/ "(app-pages-browser)/./node_modules/refractor/lang/go-module.js":
+/*!**************************************************!*\
+  !*** ./node_modules/refractor/lang/go-module.js ***!
+  \**************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("\nmodule.exports = goModule;\ngoModule.displayName = \"goModule\";\ngoModule.aliases = [];\nfunction goModule(Prism) {\n    // https://go.dev/ref/mod#go-mod-file-module\n    Prism.languages[\"go-mod\"] = Prism.languages[\"go-module\"] = {\n        comment: {\n            pattern: /\\/\\/.*/,\n            greedy: true\n        },\n        version: {\n            pattern: /(^|[\\s()[\\],])v\\d+\\.\\d+\\.\\d+(?:[+-][-+.\\w]*)?(?![^\\s()[\\],])/,\n            lookbehind: true,\n            alias: \"number\"\n        },\n        \"go-version\": {\n            pattern: /((?:^|\\s)go\\s+)\\d+(?:\\.\\d+){1,2}/,\n            lookbehind: true,\n            alias: \"number\"\n        },\n        keyword: {\n            pattern: /^([ \\t]*)(?:exclude|go|module|replace|require|retract)\\b/m,\n            lookbehind: true\n        },\n        operator: /=>/,\n        punctuation: /[()[\\],]/\n    };\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9yZWZyYWN0b3IvbGFuZy9nby1tb2R1bGUuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFFQUEsT0FBT0MsT0FBTyxHQUFHQztBQUNqQkEsU0FBU0MsV0FBVyxHQUFHO0FBQ3ZCRCxTQUFTRSxPQUFPLEdBQUcsRUFBRTtBQUNyQixTQUFTRixTQUFTRyxLQUFLO0lBQ3JCLDRDQUE0QztJQUM1Q0EsTUFBTUMsU0FBUyxDQUFDLFNBQVMsR0FBR0QsTUFBTUMsU0FBUyxDQUFDLFlBQVksR0FBRztRQUN6REMsU0FBUztZQUNQQyxTQUFTO1lBQ1RDLFFBQVE7UUFDVjtRQUNBQyxTQUFTO1lBQ1BGLFNBQVM7WUFDVEcsWUFBWTtZQUNaQyxPQUFPO1FBQ1Q7UUFDQSxjQUFjO1lBQ1pKLFNBQVM7WUFDVEcsWUFBWTtZQUNaQyxPQUFPO1FBQ1Q7UUFDQUMsU0FBUztZQUNQTCxTQUFTO1lBQ1RHLFlBQVk7UUFDZDtRQUNBRyxVQUFVO1FBQ1ZDLGFBQWE7SUFDZjtBQUNGIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL25vZGVfbW9kdWxlcy9yZWZyYWN0b3IvbGFuZy9nby1tb2R1bGUuanM/MzVlNiJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCdcblxubW9kdWxlLmV4cG9ydHMgPSBnb01vZHVsZVxuZ29Nb2R1bGUuZGlzcGxheU5hbWUgPSAnZ29Nb2R1bGUnXG5nb01vZHVsZS5hbGlhc2VzID0gW11cbmZ1bmN0aW9uIGdvTW9kdWxlKFByaXNtKSB7XG4gIC8vIGh0dHBzOi8vZ28uZGV2L3JlZi9tb2QjZ28tbW9kLWZpbGUtbW9kdWxlXG4gIFByaXNtLmxhbmd1YWdlc1snZ28tbW9kJ10gPSBQcmlzbS5sYW5ndWFnZXNbJ2dvLW1vZHVsZSddID0ge1xuICAgIGNvbW1lbnQ6IHtcbiAgICAgIHBhdHRlcm46IC9cXC9cXC8uKi8sXG4gICAgICBncmVlZHk6IHRydWVcbiAgICB9LFxuICAgIHZlcnNpb246IHtcbiAgICAgIHBhdHRlcm46IC8oXnxbXFxzKClbXFxdLF0pdlxcZCtcXC5cXGQrXFwuXFxkKyg/OlsrLV1bLSsuXFx3XSopPyg/IVteXFxzKClbXFxdLF0pLyxcbiAgICAgIGxvb2tiZWhpbmQ6IHRydWUsXG4gICAgICBhbGlhczogJ251bWJlcidcbiAgICB9LFxuICAgICdnby12ZXJzaW9uJzoge1xuICAgICAgcGF0dGVybjogLygoPzpefFxccylnb1xccyspXFxkKyg/OlxcLlxcZCspezEsMn0vLFxuICAgICAgbG9va2JlaGluZDogdHJ1ZSxcbiAgICAgIGFsaWFzOiAnbnVtYmVyJ1xuICAgIH0sXG4gICAga2V5d29yZDoge1xuICAgICAgcGF0dGVybjogL14oWyBcXHRdKikoPzpleGNsdWRlfGdvfG1vZHVsZXxyZXBsYWNlfHJlcXVpcmV8cmV0cmFjdClcXGIvbSxcbiAgICAgIGxvb2tiZWhpbmQ6IHRydWVcbiAgICB9LFxuICAgIG9wZXJhdG9yOiAvPT4vLFxuICAgIHB1bmN0dWF0aW9uOiAvWygpW1xcXSxdL1xuICB9XG59XG4iXSwibmFtZXMiOlsibW9kdWxlIiwiZXhwb3J0cyIsImdvTW9kdWxlIiwiZGlzcGxheU5hbWUiLCJhbGlhc2VzIiwiUHJpc20iLCJsYW5ndWFnZXMiLCJjb21tZW50IiwicGF0dGVybiIsImdyZWVkeSIsInZlcnNpb24iLCJsb29rYmVoaW5kIiwiYWxpYXMiLCJrZXl3b3JkIiwib3BlcmF0b3IiLCJwdW5jdHVhdGlvbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/refractor/lang/go-module.js\n"));
+
+/***/ })
+
+}]);
