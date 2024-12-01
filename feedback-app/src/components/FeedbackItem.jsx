@@ -1,10 +1,11 @@
-import { FaTimes } from 'react-icons/fa';
+import { FaEdit, FaTimes } from 'react-icons/fa';
 import React from 'react';
 import { useState } from 'react';
+import { useContext } from 'react';
+import FeedbackContext from '../context/FeedbackContext';
 
-function FeedbackItem({ item, handleDelete }) {
-  const [rating, setRating] = useState(7);
-  const [text, setText] = useState('Example of a feedback item');
+function FeedbackItem({ item }) {
+  const { deleteFeedback, editFeedback } = useContext(FeedbackContext);
   // const handleClick = () => {
   //   setRating((rating) => rating + 1);
   // };
@@ -12,7 +13,10 @@ function FeedbackItem({ item, handleDelete }) {
   return (
     <div className="card">
       <div className="num-display">{item.rating}</div>
-      <button onClick={() => handleDelete(item.id)} className="close">
+      <button className="edit" onClick={() => editFeedback(item)}>
+        <FaEdit color="green" />
+      </button>
+      <button onClick={() => deleteFeedback(item.id)} className="close">
         <FaTimes color="purple" />
       </button>
       <div className="text-display">{item.text}</div>
